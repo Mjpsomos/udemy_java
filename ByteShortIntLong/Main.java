@@ -52,6 +52,40 @@ public class Main {
         Long L = 50000L + (10 * (myB + myS + myI));
         System.out.println(L);
 
+        // FLoat min and max below Min 1.4E -45  Max 3.4028
+
+        Float myMinFloatValue = Float.MIN_VALUE;
+        Float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float Minimum Value = " + myMinFloatValue);
+        System.out.println("Float MAximum Value = " + myMaxFloatValue);
+
+        // Double Primitive type  Can produce bigger value than Float but much more data 62 bytes comp 32
+
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double Minimum Value = " + myMinDoubleValue);
+        System.out.println("Double Maximum Value = " + myMaxDoubleValue);
+
+        int myIntValue = 5 / 2; // Runs as 2 because it only produces whole numbers
+        float myFloatValue = 5F / 2F;// you can do (float) 5.25; but most do 5.25F;
+        double myDoubleValue = 5D / 2D;// used more than float. Due to accuracy 17 decimal
+        // java auto inputs as double if dont specify F or D Float or Double
+        System.out.println("My Int Value = " + myIntValue);
+        System.out.println("My Float Value = " + myFloatValue);
+        System.out.println("My Double Value = " + myDoubleValue);
+
+        // Challenge conver pounds to killograms
+        System.out.println();
+        double Pounds = 1;
+        double Kilograms = 0.45359237;
+        double myPoundsToKilograms = Pounds * Kilograms;
+        System.out.println("My conversion is = " + myPoundsToKilograms);
+
+
+
+
+
+
 
 
 
